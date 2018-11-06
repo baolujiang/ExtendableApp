@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonSnappableTypes", "CommonSnappableTypes\CommonSnappableTypes.csproj", "{1CCF5B1B-E680-4B1C-AF5A-74C7BC76D0DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSnapIn", "CSharpSnapIn\CSharpSnapIn.csproj", "{956C80B7-85DC-4332-9C8B-184FB0183424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1CCF5B1B-E680-4B1C-AF5A-74C7BC76D0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCF5B1B-E680-4B1C-AF5A-74C7BC76D0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CCF5B1B-E680-4B1C-AF5A-74C7BC76D0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956C80B7-85DC-4332-9C8B-184FB0183424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956C80B7-85DC-4332-9C8B-184FB0183424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956C80B7-85DC-4332-9C8B-184FB0183424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956C80B7-85DC-4332-9C8B-184FB0183424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
