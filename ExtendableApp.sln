@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSnapIn", "CSharpSnapI
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VbSnapIn", "VbSnapIn\VbSnapIn.vbproj", "{BC401228-7A3E-46D2-85F6-C399599FF998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExtendableApp", "MyExtendableApp\MyExtendableApp.csproj", "{E6DAC824-B2E0-4B7C-880D-4B4B4244FECB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC401228-7A3E-46D2-85F6-C399599FF998} = {BC401228-7A3E-46D2-85F6-C399599FF998}
+		{956C80B7-85DC-4332-9C8B-184FB0183424} = {956C80B7-85DC-4332-9C8B-184FB0183424}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,10 @@ Global
 		{BC401228-7A3E-46D2-85F6-C399599FF998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC401228-7A3E-46D2-85F6-C399599FF998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC401228-7A3E-46D2-85F6-C399599FF998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DAC824-B2E0-4B7C-880D-4B4B4244FECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DAC824-B2E0-4B7C-880D-4B4B4244FECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DAC824-B2E0-4B7C-880D-4B4B4244FECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DAC824-B2E0-4B7C-880D-4B4B4244FECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
